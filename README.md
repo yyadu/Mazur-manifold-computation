@@ -87,7 +87,7 @@ License
 =======
 
 The code in this repository is released under the MIT License.
-See the file LICENSE for the complete license.
+See the file [LICENSE](LICENSE) for the complete license.
 
 Questions
 =========
