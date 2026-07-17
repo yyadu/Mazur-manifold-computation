@@ -11,7 +11,7 @@ arXiv:
 https://arxiv.org/abs/2606.17335
 
 It contains the complete source code for every computer calculation
-used in Sections 6 and 7 of the paper.
+used in Sections 7 and 8 of the paper.
 
 The file
 
