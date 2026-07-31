@@ -1,0 +1,14 @@
+import snappy
+# Whitehead link exterior WS3 in S^3
+WS3 = snappy.Manifold('DT: [(6,-10,2,12),(8,-4)], [1,1,0,1,0,0]')
+WS3id = WS3.identify()
+IsomWS3 = WS3.symmetry_group()
+print("Whitehead link exterior WS3 in S^3")
+print("Volume =", WS3.volume())
+print("Isometric to census manifold:", WS3id)
+print("Cusp shape =", WS3.cusp_info('shape'))
+print("")
+print("Is WS3 achiral?", IsomWS3.is_amphicheiral())
+print("Order of isometry group =", IsomWS3.order())
+print("Isometry group =", IsomWS3)
+print("Self-isometries are:", IsomWS3.isometries())
