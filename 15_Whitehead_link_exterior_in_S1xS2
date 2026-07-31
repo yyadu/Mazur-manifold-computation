@@ -1,0 +1,18 @@
+import snappy
+# Whitehead link exterior W in S^1xS^2
+# DT conventions swap the order of the blue and green components
+# Correspondingly, we Dehn-fill cusp 1 with (0,1) to get S^1xS^2
+W = snappy.Manifold('DT: [(10,8,-14,4),(-6,-16,2),(-12,)], [1,1,1,0,0,0,0,1]')
+W.dehn_fill((0,1),1)
+W = W.filled_triangulation()
+Wid = W.identify()
+IsomW = W.symmetry_group()
+print("Whitehead link exterior W in S^1xS^2")
+print("Volume =", W.volume())
+print("Isometric to census manifold:", Wid)
+print("Cusp shape =", W.cusp_info('shape'))
+print("")
+print("Is W achiral?", IsomW.is_amphicheiral())
+print("Order of isometry group =", IsomW.order())
+print("Isometry group =", IsomW)
+print("Self-isometries are:", IsomW.isometries())
