@@ -72,6 +72,12 @@ Computes volumes of Dehn fillings of the Jester knot exterior.
 13_volume_symmetry_filled_Y.py
 Computes evidence for the Jester volume symmetry.
 
+14_Whitehead_link_exterior_in_S3.py
+Computes basic information and cusp shapes of the Whitehead link exterior WS3 in S^3.
+
+15_Whitehead_link_exterior_in_S1xS2.py
+Computes basic information and cusp shapes of the Whitehead link exterior W in S^1 × S^2.
+
 Citation
 ========
 
